@@ -1,0 +1,208 @@
+
+
+body{ 
+    margin-bottom: 5px;
+
+}
+
+
+
+
+/* Estyle Contenidos */
+
+.copy{
+    /* width: 60%; */
+    width: 60%;
+    background-color:white;
+    float: left;
+    max-width: 598px;
+    /* max-height:614px ; */
+
+}
+.imagen{
+    margin-top: 10px;
+    width: 40%;
+    /* border: 2px solid #031f4b ; */
+    /* float: right; esto cambie=========================*/
+    max-width: 476px;
+    max-height:614px ;
+    /* justify-content: center; 
+    align-items: center; */
+    
+}
+/* ===============para cuadrar los pinches margenes=============== */
+@media screen and (min-width: 868px) and (max-width: 1024px) {
+    .imagen{
+        max-height:350px !important;
+        
+    }
+    /* body{
+        background-color: red;
+       } */
+       .invi{
+        display: none !important;
+       
+        }
+
+  }
+  
+
+/* =============================================================== */
+
+.img-princi{
+    /* border: 5px solid black; */
+  max-width: 100%; 
+  margin: 10% 5%; 
+  box-shadow: -6px -2px 25px 4px rgba(218,19,19,0.56);
+-webkit-box-shadow: -6px -2px 25px 4px rgba(218,19,19,0.56);
+-moz-box-shadow: -6px -2px 25px 4px rgba(218,19,19,0.56);
+border-radius: 10px;
+}
+
+.mapa {
+    float: left;
+    margin-right: 20px;
+}
+p {
+    margin: 0;
+}
+/* div .info{
+    display: block;
+}   */
+.copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 0 15%; */
+    /* background-color: aqua; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+.podi{
+    -webkit-text-stroke: 1px red;
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 800;
+}
+
+
+.podio {
+text-align: center;
+}
+
+.img-p {
+max-width: 170px;
+height: auto;
+margin-right: 10px;
+border-radius: 10px;
+}
+.invi{
+    display: none;
+}
+/* ========================================================PODIO  */
+.img-podio{
+    display: flex;
+    flex-wrap: wrap;
+  
+    /* justify-content: center; */
+  }
+  
+    
+    @media (max-width: 868px) {
+      /* body{
+        background-color: lightblue;
+       } */
+       .imagen{
+        display: none !important;
+       }
+       .invi{
+        display: inline-block;
+       
+        }
+        .container{
+            margin: 0px 0px !important;
+        }
+        .copy{
+            width: 80%;
+        }
+      
+    }
+  
+   
+  
+    
+  
+  /* ============================================= Mapa y texto*/
+  
+  @media (max-width: 861px) {
+     /* body{
+     background-color: rgb(255, 0, 0); 
+     }  */
+     .mapa-info {
+      padding-left: 11%;
+    }
+    .mapa-info img {
+      width: 80% !important; 
+       margin-right: 0;
+    }
+    
+  }
+  
+  /* ============================================= */
+
+.mapa-info h1{
+  margin-top: 40px;
+}
+
+.mapa-info h1,p{
+  display: block;
+  /* margin-top: 30px; */
+}
+/* ================el texto de la carrera=================== */
+/* ===============para cuadrar los pinches margenes=============== */
+@media screen and (min-width: 859px) and (max-width: 1024px) {
+    .imagen{
+        max-height:350px !important;
+  
+        
+    }
+
+  }
+  
+
+/* =============================================================== */
+@media screen and (max-width: 860px) {
+    h1{
+        display:grid !important;
+        /* background-color: aqua; */
+        width: 100%;
+        }
+
+  }
+
+
+/* ============================================================= */
+
+.mapa-info img {
+  width: 60%;
+  margin-right: 20px;
+}
+
+.descripcion{
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+    text-align: justify;
+    text-justify: distribute;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 12%;
+   
+}
+
+
+

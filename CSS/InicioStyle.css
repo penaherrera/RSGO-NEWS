@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #031f4b;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+    padding: 0 5%;
+}
+
+.hero-text h5{
+font-size: 34px;
+font-weight: 400;
+color: white;
+margin-bottom: 10px;
+}
+
+.hero-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.hero-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.0;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.hero-img img{
+    width: 700px;
+    height: auto;
+}
+
+.hero-text a{
+    display: inline-block;
+    color: white;
+    background: #EC1F49;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+
+@media screen and (max-width: 1340px){
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-text h1{
+        font-size: 75px;
+        margin: 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 1195px){
+   section{
+    padding: 0 3%;
+    transition: .2s;
+   }
+
+   .hero-text{
+    padding-top: 115px;
+   }
+
+   .hero-img{
+    text-align: center;
+   }
+
+   .hero-img img{
+    width: 560px;
+    height: auto;
+   }
+
+   .hero{
+    height: 100%;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+   }
+}
+
+@media screen and (max-width: 680px){
+   .hero-img img{
+    width: 300px;
+    height: 200px;
+   }
+
+   .hero-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.hero-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.0;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+.hero-text a{
+    display: inline-block;
+    color: white;
+    background: #EC1F49;
+    border: 1px solid transparent;
+    padding: 6px 15px;
+    line-height: 1.4;
+    font-size: 9px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+ }
+ 
